@@ -22,13 +22,13 @@ useRef() is a hook that allows you to create a mutable value that persists acros
 ## Additional 🪄
 Here is a list of all the remaining hooks available in React:
 
-# useCallback(): allows you to memoize a function so that it’s not recreated on every render.
-# useMemo(): allows you to memoize a value so that it’s not recomputed on every rende
-# useLayoutEffect(): similar to useEffect, but fires before the browser repaints the screen.
-# useInsertionEffect(): similar to useEffect, but fires before React makes changes to the DOM.
-# useImperativeHandle(): allows you to expose certain methods or properties of a child component to its parent component.
-# useDebugValue(): allows you to display a label for custom hooks in the React DevTools.
-# useTransition(): allows you to mark a state transition as non-blocking and allow other updates to interrupt it.
-# useDeferredValue(): allows you to defer updating a non-critical part of the UI and let other parts update first.
-# useId(): lets a component associate a unique ID with itself. Typically used with accessibility APIs.
-# useSyncExternalStore(): lets a component subscribe to an external store.
+## useCallback(): allows you to memoize a function so that it’s not recreated on every render.
+## useMemo(): allows you to memoize a value so that it’s not recomputed on every rende
+## useLayoutEffect(): similar to useEffect, but fires before the browser repaints the screen.
+## useInsertionEffect(): similar to useEffect, but fires before React makes changes to the DOM.
+## useImperativeHandle(): allows you to expose certain methods or properties of a child component to its parent component.
+## useDebugValue(): allows you to display a label for custom hooks in the React DevTools.
+## useTransition(): allows you to mark a state transition as non-blocking and allow other updates to interrupt it.
+## useDeferredValue(): allows you to defer updating a non-critical part of the UI and let other parts update first.
+## useId(): lets a component associate a unique ID with itself. Typically used with accessibility APIs.
+## useSyncExternalStore(): lets a component subscribe to an external store.
