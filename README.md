@@ -1,6 +1,6 @@
 
-## [to create a react app : npx create-react-app '<your-app-name>']
-## [to install any node package : npm install '<package-name>']
+## [to create a react app : npx create-react-app 'your-app-name']
+## [to install any node package : npm install 'package-name']
 (npm = node package manager) link : https://www.npmjs.com
 
 
