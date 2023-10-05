@@ -6,7 +6,7 @@ Ok, let’s get started! 🎸
 ## 1. useState
 useState() is a hook that allows you to add state to your functional components.
 You use it by calling useState() and passing in the initial state as an argument. You would use useState() when you need to manage state in your components, such as managing form input or toggling a component’s visibility.
-
+<code>
 import React, { useState } from 'react';
 
 function Counter() {
@@ -23,6 +23,7 @@ function Counter() {
     </div>
   );
 }
+</code>
 In the above code, we’re using useState() to manage the count state in our Counter component. We’re initializing the count state to 0, and we’re updating it using the setCount function whenever the user clicks the “Increment” button.
 
 Pay attention:
