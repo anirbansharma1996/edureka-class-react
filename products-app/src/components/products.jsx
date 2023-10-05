@@ -1,10 +1,22 @@
-import React from 'react'
+import { useState } from "react";
 
-export const Products = () => {
+export default function Products() {
+  const [text,setText] = useState("")
+  const [array,setArray] = useState([])
+   
+  const handleInput=(e)=>{
+    setText(e.target.value)
+  }
+  const handleAdd=()=>{
+    setArray([...array,text])
+  }
+  console.log(array)
+
   return (
-    <div>products
+  <div>
+    <input type="text" onChange={handleInput} />
+    <button onClick={handleAdd}>ADD</button>
 
-      <h1>Anirban Sharma</h1>
-    </div>
-  )
+  </div>
+  );
 }
