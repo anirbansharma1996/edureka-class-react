@@ -1,3 +1,9 @@
+
+## [to create a react app : npx create-react-app <your-app-name>]
+## [to install any node package : npm install <package-name>]
+(npm = node package manager) link : https://www.npmjs.com
+
+
 ## With the introduction of React Hooks in React 16.8, functional components can now have state and lifecycle methods as class components.
 ## It’s therefore important to know how to write applications in an efficient and maintainable way.
 
