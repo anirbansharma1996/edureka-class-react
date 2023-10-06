@@ -18,6 +18,7 @@ export default function Products() {
 
   return (
     <div>
+      <h1>TODO LIST</h1>
       <input type="text" value={text} onChange={handleInput} />
       <button onClick={handleAdd}>ADD</button>
       <ol>
