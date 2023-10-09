@@ -6,7 +6,7 @@ export default function ProductsCard({ props }) {
         <img className="image-fluid" src={image} alt={id} />
         <h4>{title.slice(0, 11)}</h4>
         <h5>{description.slice(0, 20)}</h5>
-        <p>$ {price}</p>
+        <p>Rs : ₹{Math.ceil(price*83.26)}/-</p>
         <p>{category}</p>
         <p>
           {rating.rate}/5 | Total Vote : {rating.count}
