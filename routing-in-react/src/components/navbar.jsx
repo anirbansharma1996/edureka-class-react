@@ -4,6 +4,7 @@ export default function Navbar(){
           <ul className="navbar">
             <a href="/"><li>Home</li></a>
             <a href="/about"><li>About</li></a>
+            <a href="/products"><li>Products</li></a>
             <a href="/signup"><li>Sign up</li></a>
           </ul>
           <hr />
