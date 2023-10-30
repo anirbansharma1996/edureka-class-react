@@ -23,7 +23,7 @@ export default function Products() {
   }, []);
 
   if(isLoading){
-    return <h1>Loading....</h1>
+    return <span>Loading....</span>
   }
 
   return (
