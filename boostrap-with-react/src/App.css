@@ -1,0 +1,44 @@
+html,body{
+  margin: 0;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.navbar{
+  border: 2px solid;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type:none;
+  font-weight: 900;
+  cursor: pointer;
+}
+.navbar>li:hover{
+  color: red;
+}
+.product-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+   grid-template-rows: auto;
+   gap: 10px;
+}
+.card{
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.spinner-grow{
+  margin: 3rem 0 3rem 15rem;
+}
+
+
+.footer{
+  border-top: 2px solid;
+  text-align: center;
+  margin-top: 2rem;
+}
