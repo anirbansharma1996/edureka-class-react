@@ -6,7 +6,6 @@ export default function Blog() {
   );
 
   const handleDelete = (index) => {
-    console.log(index);
     const localdata = JSON.parse(localStorage.getItem("blogs"));
     const updatedlist = localdata.filter((el, i) => i !== index);
     localStorage.setItem("blogs", JSON.stringify(updatedlist));
