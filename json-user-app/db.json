@@ -1,0 +1,24 @@
+{
+  "user": [
+    {
+      "name": "Anirban sharma",
+      "email": "anirbansharma36@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Sulagna ",
+      "email": "sulagna@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Sudripto",
+      "email": "sudripto@gmail.com",
+      "password": "321",
+      "id": 3
+    }
+  ],
+  "products": [],
+  "cart": []
+}
