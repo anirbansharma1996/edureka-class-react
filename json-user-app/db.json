@@ -19,6 +19,39 @@
       "id": 3
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "pname": "Rebook Air 1",
+      "pdesc": "nice comfortable shoe",
+      "pcate": "shoe",
+      "pprice": "2999",
+      "pimg": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D",
+      "id": 1
+    },
+    {
+      "pname": "Zudio Casual Shirt",
+      "pdesc": "nice comfortable shirt",
+      "pcate": "shirt",
+      "pprice": "399",
+      "pimg": "https://5.imimg.com/data5/VH/BL/PA/SELLER-96763193/fond-of-mens-cotton-shirts.jpg",
+      "id": 2
+    },
+    {
+      "pname": "LG oled TV",
+      "pdesc": "nice budget TV",
+      "pcate": "electronics",
+      "pprice": "10999",
+      "pimg": "https://www.lg.com/in/images/tvs/md07554883/gallery/55UQ7500PSF-D-3.jpg",
+      "id": 3
+    },
+    {
+      "pname": "Iphone 15 Pro",
+      "pdesc": "Best Phone in market",
+      "pcate": "electronics",
+      "pprice": "129000",
+      "pimg": "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_UF894,1000_QL80_.jpg",
+      "id": 4
+    }
+  ],
   "cart": []
 }
