@@ -21,7 +21,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{textAlign:"center"}}>
       <h2>ALL PRODUCTS</h2>
       {loading && <h4>Loading...</h4>}
       <div className="main-container">

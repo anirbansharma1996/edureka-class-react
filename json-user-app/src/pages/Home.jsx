@@ -36,7 +36,7 @@ const Home = () => {
    }
 
   return (
-    <div>
+    <div className="form-div">
       <h1>ADD PRODUCTS</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" onChange={handleInput} name="pname" value={products.pname} placeholder="product name" />

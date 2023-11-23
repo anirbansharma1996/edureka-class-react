@@ -53,5 +53,14 @@
       "id": 4
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "pname": "Zudio Casual Shirt",
+      "pdesc": "nice comfortable shirt",
+      "pcate": "shirt",
+      "pprice": "399",
+      "pimg": "https://5.imimg.com/data5/VH/BL/PA/SELLER-96763193/fond-of-mens-cotton-shirts.jpg",
+      "id": 2
+    }
+  ]
 }

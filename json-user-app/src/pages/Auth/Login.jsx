@@ -48,7 +48,7 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className="form-div">
       <h4>LOGIN</h4>
       <form onSubmit={handleLogin}>
         <input
@@ -65,7 +65,7 @@ const Login = () => {
           onChange={handleInput}
           placeholder="password"
         />
-        <input type="checkbox" onChange={handleShowPassword} />
+        <input type="checkbox" onChange={handleShowPassword} />show password
         <input type="submit" value="LOGIN" />
       </form>
     </div>

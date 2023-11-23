@@ -40,7 +40,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="form">
+    <div className="form-div">
       <h4>SIGNUP</h4>
       <form onSubmit={handleSignup}>
         <input
@@ -64,7 +64,7 @@ const Signup = () => {
           placeholder="enter password"
           onChange={handleInput}
         />
-        <input type="checkbox" onChange={handleViewPassword} />
+        <input type="checkbox" onChange={handleViewPassword} />show password
         <input type="submit" value="SIGNUP" />
       </form>
       <p>Already have an account <a href="/login">Login</a> here.. </p> 

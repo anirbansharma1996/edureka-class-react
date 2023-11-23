@@ -7,8 +7,8 @@ const Navbar = () => {
     window.location.href = "/signup";
   };
   return (
-    <div>
-      <ul>
+    <div >
+      <ul className="navbar">
         <a href="/">
           <li>Home</li>
         </a>
