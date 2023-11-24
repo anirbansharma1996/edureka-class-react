@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "content": "Biplab Roy ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam ex harum necessitatibus est, aliquid beatae a nulla corporis repudiandae velit, omnis laboriosam, sit neque mollitia perferendis laborum minus consectetur.",
+      "id": 4
+    },
+    {
+      "content": "Sulagna ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam ex harum necessitatibus est, aliquid beatae a nulla corporis repudiandae velit, omnis laboriosam, sit neque mollitia perferendis laborum minus consectetur.",
+      "id": 5
+    },
+    {
+      "content": "Anirban ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam ex harum necessitatibus est, aliquid beatae a nulla corporis repudiandae velit, omnis laboriosam, sit neque mollitia perferendis laborum minus consectetur.",
+      "id": 6
+    }
+  ]
+}
