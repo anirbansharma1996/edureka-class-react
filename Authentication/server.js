@@ -2,7 +2,7 @@ const express = require('express')
 const connectDB = require("./utlis/db.js")
 const AuthRoute = require('./route/auth.route.js')
 
-const bcrypt = require("bcrypt")
+
 
 
 const PORT = 8008
