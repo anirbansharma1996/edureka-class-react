@@ -11,7 +11,6 @@ const getAllBlog = async (req, res) => {
 };
 
 //SOLO POSTS
-
 const getSoloBlog = async (req, res) => {
   try {
     const blogID = req.params.id;
@@ -30,10 +29,11 @@ const getSoloBlog = async (req, res) => {
 
 const postSingleBLog = async (req, res) => {
   try {
+    const { title, description, date } = req.body;
     const newBlog = new Blog({
-      title: req.body.title,
-      description: req.body.description,
-      date: req.body.date,
+      title: title,
+      description: description,
+      date: date,
     });
     await newBlog.save();
     return res.status(201).send("blog posted successfully");
@@ -43,9 +43,15 @@ const postSingleBLog = async (req, res) => {
 };
 
 // UPDATE BLOG
-
 const updateSoloBlog = async (req, res) => {
   try {
+    const Id = req.params.id;
+    const isPresent = await Blog.findById({ _id: Id });
+
+    if (!isPresent) {
+      return res.status(404).send("invalid ID");
+    }
+
     const updatePost = await Blog.updateOne(
       { _id: req.params.id },
       {
