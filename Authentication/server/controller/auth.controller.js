@@ -12,7 +12,6 @@ const Signup = async (req, res) => {
       return res.status(404).send("User already exist...");
     }
     const hashedPassword = await bcrypt.hash(password, 10);
-    console.log(hashedPassword);
     const newUser = new User({
       name: name,
       email: email,
@@ -53,7 +52,7 @@ const Login = async (req, res) => {
 
       return res
         .status(200)
-        .send({ message: "login success", token: token, user: otherData });
+        .send({ message: "login success", token: token });
     } else {
       res.status(404).send("invalid password");
     }
